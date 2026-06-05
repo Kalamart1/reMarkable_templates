@@ -1,0 +1,109 @@
+{
+    "name": "Millimeter paper",
+    "author": "Kalamart",
+    "iconData": "PHN2ZyBoZWlnaHQ9IjE1MCIgd2lkdGg9IjIwMCIgdmlld0JveD0iMCAwIDIwMCAxNTAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxnIGNsaXAtcGF0aD0idXJsKCNjbGlwMF8xNDIyXzQxKSI+CjxyZWN0IHg9IjM0IiBoZWlnaHQ9IjE1MCIgd2lkdGg9IjIiIGZpbGw9ImJsYWNrIi8+CjxyZWN0IHg9IjEwMCIgaGVpZ2h0PSIxNTAiIHdpZHRoPSIyIiBmaWxsPSJibGFjayIvPgo8cmVjdCB4PSIxNjUiIGhlaWdodD0iMTUwIiB3aWR0aD0iMiIgZmlsbD0iYmxhY2siLz4KPHJlY3QgeT0iMzciIGhlaWdodD0iMiIgd2lkdGg9IjIwMCIgZmlsbD0iYmxhY2siLz4KPHJlY3QgeT0iMTEwIiBoZWlnaHQ9IjIiIHdpZHRoPSIyMDAiIGZpbGw9ImJsYWNrIi8+CjxwYXRoIGQ9Ik0xOTYgNFYxNDZINFY0SDE5NlpNMjAwIDBIMFYxNTBIMjAwVjBaIiBmaWxsPSJibGFjayIvPgo8cmVjdCB5PSI3MyIgaGVpZ2h0PSI0IiB3aWR0aD0iMjAwIiBmaWxsPSJibGFjayIvPgo8cmVjdCB4PSI2NiIgaGVpZ2h0PSIxNTAiIHdpZHRoPSI0IiBmaWxsPSJibGFjayIvPgo8cmVjdCB4PSIxMzEiIGhlaWdodD0iMTUwIiB3aWR0aD0iNCIgZmlsbD0iYmxhY2siLz4KPC9nPgo8ZGVmcz4KPGNsaXBQYXRoIGlkPSJjbGlwMF8xNDIyXzQxIj4KPHJlY3QgaGVpZ2h0PSIxNTAiIHdpZHRoPSIyMDAiIGZpbGw9IndoaXRlIi8+CjwvY2xpcFBhdGg+CjwvZGVmcz4KPC9zdmc+Cg==",
+    "templateVersion": "1.0.0",
+    "formatVersion": 1,
+    "categories": ["Note-taking"],
+    "labels": ["Meetings"],
+    "orientation": "landscape",
+    "items": [
+        {
+            "type": "group",
+            "boundingBox": {
+                "x": 0,
+                "y": 0,
+                "width": 88.75,
+                "height": 88.75
+            },
+            "repeat": {
+                "rows": "infinite",
+                "columns": "infinite"
+            },
+            "children": [
+                {
+                    "type": "path",
+                    "strokeWidth": 2,
+                    "strokeColor": "#c88757",
+                    "data": [
+                        "M", 0, 0,
+                        "L", "parentWidth", 0
+                    ]
+                },
+                {
+                    "type": "path",
+                    "strokeWidth": 2,
+                    "strokeColor": "#c88757",
+                    "data": [
+                        "M", 0, 0,
+                        "L", 0, "parentHeight"
+                    ]
+                },
+                {
+                    "type": "path",
+                    "strokeWidth": 1,
+                    "strokeColor": "#c88757",
+                    "data": [
+                        "M", 0, "parentHeight/2",
+                        "L", "parentWidth", "parentHeight/2"
+                    ]
+                },
+                {
+                    "type": "path",
+                    "strokeWidth": 1,
+                    "strokeColor": "#c88757",
+                    "data": [
+                        "M", "parentWidth/2", 0,
+                        "L", "parentWidth/2", "parentHeight"
+                    ]
+                },
+                {
+                    "type": "group",
+                    "boundingBox": {
+                        "x": 0,
+                        "y": 0,
+                        "width": "parentWidth",
+                        "height": "parentHeight/10"
+                    },
+                    "repeat": {
+                        "rows": "down"
+                    },
+                    "children": [
+                        {
+                            "type": "path",
+                            "strokeWidth": 0.5,
+                            "strokeColor": "#c88757",
+                            "data": [
+                                "M", 0, 0,
+                                "L", "parentWidth", 0
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "boundingBox": {
+                        "x": 0,
+                        "y": 0,
+                        "width": "parentWidth/10",
+                        "height": "parentHeight"
+                    },
+                    "repeat": {
+                        "columns": "right"
+                    },
+                    "children": [
+                        {
+                            "type": "path",
+                            "strokeWidth": 0.5,
+                            "strokeColor": "#c88757",
+                            "data": [
+                                "M", 0, 0,
+                                "L", 0, "parentHeight"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

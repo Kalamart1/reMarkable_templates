@@ -1,0 +1,27 @@
+<svg height="150" width="200" viewBoy="0 0 150 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_1422_41)">
+<rect x="17.818" height="150" width="4" fill="black"/>
+<rect x="35.636" height="150" width="4" fill="black"/>
+<rect x="53.455" height="150" width="4" fill="black"/>
+<rect x="71.27" height="150" width="4" fill="black"/>
+<rect x="89.09" height="150" width="4" fill="black"/>
+<rect x="106.909" height="150" width="4" fill="black"/>
+<rect x="124.727" height="150" width="4" fill="black"/>
+<rect x="142.55" height="150" width="4" fill="black"/>
+<rect x="160.36" height="150" width="4" fill="black"/>
+<rect x="178.18" height="150" width="4" fill="black"/>
+<path d="M196 4V146H4V4H196ZM200 0H0V150H200V0Z" fill="black"/>
+<rect y="18.25" height="4" width="200" fill="black"/>
+<rect y="36.5" height="4" width="200" fill="black"/>
+<rect y="54.75" height="4" width="200" fill="black"/>
+<rect y="73" height="4" width="200" fill="black"/>
+<rect y="91.25" height="4" width="200" fill="black"/>
+<rect y="109.5" height="4" width="200" fill="black"/>
+<rect y="127.75" height="4" width="200" fill="black"/>
+</g>
+<defs>
+<clipPath id="clip0_1422_41">
+<rect height="150" width="200" fill="white"/>
+</clipPath>
+</defs>
+</svg>

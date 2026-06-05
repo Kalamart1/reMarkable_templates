@@ -1,0 +1,43 @@
+{
+    "name": "4mm grid",
+    "author": "Kalamart",
+    "iconData": "PHN2ZyB3aWR0aD0iMTUwIiBoZWlnaHQ9IjIwMCIgdmlld0JveD0iMCAwIDE1MCAyMDAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxnIGNsaXAtcGF0aD0idXJsKCNjbGlwMF8xNDIyXzQxKSI+CjxyZWN0IHk9IjE3LjgxOCIgd2lkdGg9IjE1MCIgaGVpZ2h0PSI0IiBmaWxsPSJibGFjayIvPgo8cmVjdCB5PSIzNS42MzYiIHdpZHRoPSIxNTAiIGhlaWdodD0iNCIgZmlsbD0iYmxhY2siLz4KPHJlY3QgeT0iNTMuNDU1IiB3aWR0aD0iMTUwIiBoZWlnaHQ9IjQiIGZpbGw9ImJsYWNrIi8+CjxyZWN0IHk9IjcxLjI3IiB3aWR0aD0iMTUwIiBoZWlnaHQ9IjQiIGZpbGw9ImJsYWNrIi8+CjxyZWN0IHk9Ijg5LjA5IiB3aWR0aD0iMTUwIiBoZWlnaHQ9IjQiIGZpbGw9ImJsYWNrIi8+CjxyZWN0IHk9IjEwNi45MDkiIHdpZHRoPSIxNTAiIGhlaWdodD0iNCIgZmlsbD0iYmxhY2siLz4KPHJlY3QgeT0iMTI0LjcyNyIgd2lkdGg9IjE1MCIgaGVpZ2h0PSI0IiBmaWxsPSJibGFjayIvPgo8cmVjdCB5PSIxNDIuNTUiIHdpZHRoPSIxNTAiIGhlaWdodD0iNCIgZmlsbD0iYmxhY2siLz4KPHJlY3QgeT0iMTYwLjM2IiB3aWR0aD0iMTUwIiBoZWlnaHQ9IjQiIGZpbGw9ImJsYWNrIi8+CjxyZWN0IHk9IjE3OC4xOCIgd2lkdGg9IjE1MCIgaGVpZ2h0PSI0IiBmaWxsPSJibGFjayIvPgo8cGF0aCBkPSJNMTQ2IDRWMTk2SDRWNEgxNDZaTTE1MCAwSDBWMjAwSDE1MFYwWiIgZmlsbD0iYmxhY2siLz4KPHJlY3QgeD0iMTguMjUiIHdpZHRoPSI0IiBoZWlnaHQ9IjIwMCIgZmlsbD0iYmxhY2siLz4KPHJlY3QgeD0iMzYuNSIgd2lkdGg9IjQiIGhlaWdodD0iMjAwIiBmaWxsPSJibGFjayIvPgo8cmVjdCB4PSI1NC43NSIgd2lkdGg9IjQiIGhlaWdodD0iMjAwIiBmaWxsPSJibGFjayIvPgo8cmVjdCB4PSI3MyIgd2lkdGg9IjQiIGhlaWdodD0iMjAwIiBmaWxsPSJibGFjayIvPgo8cmVjdCB4PSI5MS4yNSIgd2lkdGg9IjQiIGhlaWdodD0iMjAwIiBmaWxsPSJibGFjayIvPgo8cmVjdCB4PSIxMDkuNSIgd2lkdGg9IjQiIGhlaWdodD0iMjAwIiBmaWxsPSJibGFjayIvPgo8cmVjdCB4PSIxMjcuNzUiIHdpZHRoPSI0IiBoZWlnaHQ9IjIwMCIgZmlsbD0iYmxhY2siLz4KPC9nPgo8ZGVmcz4KPGNsaXBQYXRoIGlkPSJjbGlwMF8xNDIyXzQxIj4KPHJlY3Qgd2lkdGg9IjE1MCIgaGVpZ2h0PSIyMDAiIGZpbGw9IndoaXRlIi8+CjwvY2xpcFBhdGg+CjwvZGVmcz4KPC9zdmc+Cg==",
+    "templateVersion": "1.0.0",
+    "formatVersion": 1,
+    "categories": ["Productivity", "Note-taking"],
+    "labels": ["Meetings"],
+    "orientation": "portrait",
+    "constants": [
+        {"gridSize": 35.5}
+    ],
+    "items": [
+        {
+            "type": "group",
+            "boundingBox": {
+                "x": 0,
+                "y": 0,
+                "width": "gridSize",
+                "height": "gridSize"
+            },
+            "repeat": {
+                "rows": "infinite",
+                "columns": "infinite"
+            },
+            "children": [
+                {
+                    "type": "path",
+                    "data": [
+                        "M", 0, 0, "L", "parentWidth", 0
+                    ]
+                },
+                {
+                    "type": "path",
+                    "data": [
+                        "M", 0, 0, "L", 0, "parentHeight"
+                    ]
+                }
+            ]
+        }
+    ]
+}
+

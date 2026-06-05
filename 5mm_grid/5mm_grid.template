@@ -1,0 +1,43 @@
+{
+    "name": "5mm grid",
+    "author": "Kalamart",
+    "iconData": "PHN2ZyB3aWR0aD0iMTUwIiBoZWlnaHQ9IjIwMCIgdmlld0JveD0iMCAwIDE1MCAyMDAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxnIGNsaXAtcGF0aD0idXJsKCNjbGlwMF8xNDIyXzQxKSI+CjxyZWN0IHk9IjI0LjUiIHdpZHRoPSIxNTAiIGhlaWdodD0iNCIgZmlsbD0iYmxhY2siLz4KPHJlY3QgeT0iNDkiIHdpZHRoPSIxNTAiIGhlaWdodD0iNCIgZmlsbD0iYmxhY2siLz4KPHJlY3QgeT0iNzMuNSIgd2lkdGg9IjE1MCIgaGVpZ2h0PSI0IiBmaWxsPSJibGFjayIvPgo8cmVjdCB5PSI5OCIgd2lkdGg9IjE1MCIgaGVpZ2h0PSI0IiBmaWxsPSJibGFjayIvPgo8cmVjdCB5PSIxMjIuNSIgd2lkdGg9IjE1MCIgaGVpZ2h0PSI0IiBmaWxsPSJibGFjayIvPgo8cmVjdCB5PSIxNDciIHdpZHRoPSIxNTAiIGhlaWdodD0iNCIgZmlsbD0iYmxhY2siLz4KPHJlY3QgeT0iMTcxLjUiIHdpZHRoPSIxNTAiIGhlaWdodD0iNCIgZmlsbD0iYmxhY2siLz4KPHBhdGggZD0iTTE0NiA0VjE5Nkg0VjRIMTQ2Wk0xNTAgMEgwVjIwMEgxNTBWMFoiIGZpbGw9ImJsYWNrIi8+CjxyZWN0IHg9IjI0LjMzIiB3aWR0aD0iNCIgaGVpZ2h0PSIyMDAiIGZpbGw9ImJsYWNrIi8+CjxyZWN0IHg9IjQ4LjY2IiB3aWR0aD0iNCIgaGVpZ2h0PSIyMDAiIGZpbGw9ImJsYWNrIi8+CjxyZWN0IHg9IjczIiB3aWR0aD0iNCIgaGVpZ2h0PSIyMDAiIGZpbGw9ImJsYWNrIi8+CjxyZWN0IHg9Ijk3LjMzIiB3aWR0aD0iNCIgaGVpZ2h0PSIyMDAiIGZpbGw9ImJsYWNrIi8+CjxyZWN0IHg9IjEyMS42NiIgd2lkdGg9IjQiIGhlaWdodD0iMjAwIiBmaWxsPSJibGFjayIvPgo8L2c+CjxkZWZzPgo8Y2xpcFBhdGggaWQ9ImNsaXAwXzE0MjJfNDEiPgo8cmVjdCB3aWR0aD0iMTUwIiBoZWlnaHQ9IjIwMCIgZmlsbD0id2hpdGUiLz4KPC9jbGlwUGF0aD4KPC9kZWZzPgo8L3N2Zz4K",
+    "templateVersion": "1.0.0",
+    "formatVersion": 1,
+    "categories": ["Productivity", "Note-taking"],
+    "labels": ["Meetings"],
+    "orientation": "portrait",
+    "constants": [
+        {"gridSize": 44.375}
+    ],
+    "items": [
+        {
+            "type": "group",
+            "boundingBox": {
+                "x": 0,
+                "y": 0,
+                "width": "gridSize",
+                "height": "gridSize"
+            },
+            "repeat": {
+                "rows": "infinite",
+                "columns": "infinite"
+            },
+            "children": [
+                {
+                    "type": "path",
+                    "data": [
+                        "M", 0, 0, "L", "parentWidth", 0
+                    ]
+                },
+                {
+                    "type": "path",
+                    "data": [
+                        "M", 0, 0, "L", 0, "parentHeight"
+                    ]
+                }
+            ]
+        }
+    ]
+}
+

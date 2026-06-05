@@ -1,0 +1,22 @@
+<svg height="150" width="200" viewBoy="0 0 200 150" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_1422_41)">
+<rect x="24.5" height="150" width="4" fill="black"/>
+<rect x="49" height="150" width="4" fill="black"/>
+<rect x="73.5" height="150" width="4" fill="black"/>
+<rect x="98" height="150" width="4" fill="black"/>
+<rect x="122.5" height="150" width="4" fill="black"/>
+<rect x="147" height="150" width="4" fill="black"/>
+<rect x="171.5" height="150" width="4" fill="black"/>
+<path d="M196 4V146H4V4H196ZM200 0H0V150H200V0Z" fill="black"/>
+<rect y="24.33" height="4" width="200" fill="black"/>
+<rect y="48.66" height="4" width="200" fill="black"/>
+<rect y="73" height="4" width="200" fill="black"/>
+<rect y="97.33" height="4" width="200" fill="black"/>
+<rect y="121.66" height="4" width="200" fill="black"/>
+</g>
+<defs>
+<clipPath id="clip0_1422_41">
+<rect height="150" width="200" fill="white"/>
+</clipPath>
+</defs>
+</svg>

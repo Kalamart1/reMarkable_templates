@@ -1,0 +1,58 @@
+{
+    "name": "Checklist",
+    "author": "Kalamart",
+    "iconData": "PHN2ZyB3aWR0aD0iMTUwIiBoZWlnaHQ9IjIwMCIgdmlld0JveD0iMCAwIDE1MCAyMDAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxnIGNsaXAtcGF0aD0idXJsKCNjbGlwMF80NjU2XzM3NykiPgo8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTE4IDMwVjU0SDQyVjMwSDE4Wk0zOCAzNEgyMlY1MEgzOFYzNFoiIGZpbGw9ImJsYWNrIi8+CjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNMTggNzBWOTRINDJWNzBIMThaTTM4IDc0SDIyVjkwSDM4Vjc0WiIgZmlsbD0iYmxhY2siLz4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xOCAxMTBINDJWMTM0SDE4VjExMFpNMjIgMTE0SDM4VjEzMEgyMlYxMTRaIiBmaWxsPSJibGFjayIvPgo8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTE4IDE1MFYxNzRINDJWMTUwSDE4Wk0zOCAxNTRIMjJWMTcwSDM4VjE1NFoiIGZpbGw9ImJsYWNrIi8+CjxwYXRoIGQ9Ik0xMzAgNTBINThWNTRIMTMwVjUwWiIgZmlsbD0iYmxhY2siLz4KPHBhdGggZD0iTTEzMCA5MEg1OFY5NEgxMzBWOTBaIiBmaWxsPSJibGFjayIvPgo8cGF0aCBkPSJNNTggMTMwSDEzMFYxMzRINThWMTMwWiIgZmlsbD0iYmxhY2siLz4KPHBhdGggZD0iTTEzMCAxNzBINThWMTc0SDEzMFYxNzBaIiBmaWxsPSJibGFjayIvPgo8cGF0aCBkPSJNMTQ2IDRWMTk2SDRWNEgxNDZaTTE1MCAwSDBWMjAwSDE1MFYwWiIgZmlsbD0iYmxhY2siLz4KPC9nPgo8ZGVmcz4KPGNsaXBQYXRoIGlkPSJjbGlwMF80NjU2XzM3NyI+CjxyZWN0IHdpZHRoPSIxNTAiIGhlaWdodD0iMjAwIiBmaWxsPSJ3aGl0ZSIvPgo8L2NsaXBQYXRoPgo8L2RlZnM+Cjwvc3ZnPgo=",
+    "templateVersion": "1.0.0",
+    "formatVersion": 1,
+    "categories": ["Productivity"],
+    "labels": ["Meetings"],
+    "orientation": "portrait",
+    "constants": [
+        {"lineHeight": 71},
+        {"squareSize": 35.5},
+        {"leftMargin": 133},
+        {"rightMargin": 71},
+        {"titleMargin": "templateWidth/5"}
+    ],
+    "items": [
+        {
+            "type": "path",
+            "data": [
+                "M", "titleMargin", 120,
+                "L", "templateWidth - titleMargin", 120
+            ]
+        },
+        {
+            "type": "group",
+            "boundingBox": {
+                "x": "leftMargin",
+                "y": 151,
+                "width": "templateWidth-leftMargin-rightMargin",
+                "height": "lineHeight"
+            },
+            "repeat": {
+                "rows": "down"
+            },
+            "children": [
+                {
+                    "type": "path",
+                    "strokeWidth": 2,
+                    "data": [
+                        "M", 0, "parentHeight-squareSize",
+                        "L", 0, "parentHeight",
+                        "L", "squareSize", "parentHeight",
+                        "L", "squareSize", "parentHeight-squareSize",
+                        "Z"
+                    ]
+                },
+                {
+                    "type": "path",
+                    "data": [
+                        "M", "squareSize+17.75", "parentHeight",
+                        "L", "parentWidth", "parentHeight"
+                    ]
+                }
+            ]
+        }
+    ]
+}

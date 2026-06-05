@@ -1,0 +1,34 @@
+{
+    "name": "Webtoon",
+    "author": "Kalamart",
+    "iconData": "PHN2ZyB3aWR0aD0iMTUwIiBoZWlnaHQ9IjIwMCIgdmlld0JveD0iMCAwIDE1MCAyMDAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxnIGNsaXAtcGF0aD0idXJsKCNjbGlwMF8xNDIyXzQxKSI+CjxwYXRoIGQ9Ik0xNDYgNFYxOTZINFY0SDE0NlpNMTUwIDBIMFYyMDBIMTUwVjBaIiBmaWxsPSJibGFjayIvPgo8cmVjdCB4PSI3MyIgd2lkdGg9IjQiIGhlaWdodD0iMjAwIiBmaWxsPSJibGFjayIvPgo8L2c+CjxkZWZzPgo8Y2xpcFBhdGggaWQ9ImNsaXAwXzE0MjJfNDEiPgo8cmVjdCB3aWR0aD0iMTUwIiBoZWlnaHQ9IjIwMCIgZmlsbD0iYmxhY2siLz4KPC9jbGlwUGF0aD4KPC9kZWZzPgo8L3N2Zz4K",
+    "templateVersion": "1.0.0",
+    "formatVersion": 1,
+    "categories": ["Community"],
+    "labels": ["Meetings"],
+    "orientation": "portrait",
+    "items": [
+        {
+            "type": "group",
+            "boundingBox": {
+                "x": 0,
+                "y": 0,
+                "width": "templateWidth",
+                "height": "templateHeight"
+            },
+            "repeat": {
+                "rows": "infinite"
+            },
+            "children": [
+                {
+                    "type": "path",
+                    "strokeWidth": 4,
+                    "data": [
+                        "M", "parentWidth/2", 0,
+                        "L", "parentWidth/2", "parentHeight"
+                    ]
+                }
+            ]
+        }
+    ]
+}

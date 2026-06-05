@@ -1,0 +1,45 @@
+{
+    "name": "5mm grid",
+    "author": "Kalamart",
+    "iconData": "PHN2ZyBoZWlnaHQ9IjE1MCIgd2lkdGg9IjIwMCIgdmlld0JveT0iMCAwIDIwMCAxNTAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxnIGNsaXAtcGF0aD0idXJsKCNjbGlwMF8xNDIyXzQxKSI+CjxyZWN0IHg9IjI0LjUiIGhlaWdodD0iMTUwIiB3aWR0aD0iNCIgZmlsbD0iYmxhY2siLz4KPHJlY3QgeD0iNDkiIGhlaWdodD0iMTUwIiB3aWR0aD0iNCIgZmlsbD0iYmxhY2siLz4KPHJlY3QgeD0iNzMuNSIgaGVpZ2h0PSIxNTAiIHdpZHRoPSI0IiBmaWxsPSJibGFjayIvPgo8cmVjdCB4PSI5OCIgaGVpZ2h0PSIxNTAiIHdpZHRoPSI0IiBmaWxsPSJibGFjayIvPgo8cmVjdCB4PSIxMjIuNSIgaGVpZ2h0PSIxNTAiIHdpZHRoPSI0IiBmaWxsPSJibGFjayIvPgo8cmVjdCB4PSIxNDciIGhlaWdodD0iMTUwIiB3aWR0aD0iNCIgZmlsbD0iYmxhY2siLz4KPHJlY3QgeD0iMTcxLjUiIGhlaWdodD0iMTUwIiB3aWR0aD0iNCIgZmlsbD0iYmxhY2siLz4KPHBhdGggZD0iTTE5NiA0VjE0Nkg0VjRIMTk2Wk0yMDAgMEgwVjE1MEgyMDBWMFoiIGZpbGw9ImJsYWNrIi8+CjxyZWN0IHk9IjI0LjMzIiBoZWlnaHQ9IjQiIHdpZHRoPSIyMDAiIGZpbGw9ImJsYWNrIi8+CjxyZWN0IHk9IjQ4LjY2IiBoZWlnaHQ9IjQiIHdpZHRoPSIyMDAiIGZpbGw9ImJsYWNrIi8+CjxyZWN0IHk9IjczIiBoZWlnaHQ9IjQiIHdpZHRoPSIyMDAiIGZpbGw9ImJsYWNrIi8+CjxyZWN0IHk9Ijk3LjMzIiBoZWlnaHQ9IjQiIHdpZHRoPSIyMDAiIGZpbGw9ImJsYWNrIi8+CjxyZWN0IHk9IjEyMS42NiIgaGVpZ2h0PSI0IiB3aWR0aD0iMjAwIiBmaWxsPSJibGFjayIvPgo8L2c+CjxkZWZzPgo8Y2xpcFBhdGggaWQ9ImNsaXAwXzE0MjJfNDEiPgo8cmVjdCBoZWlnaHQ9IjE1MCIgd2lkdGg9IjIwMCIgZmlsbD0id2hpdGUiLz4KPC9jbGlwUGF0aD4KPC9kZWZzPgo8L3N2Zz4K",
+    "templateVersion": "1.0.0",
+    "formatVersion": 1,
+    "categories": ["Productivity", "Note-taking"],
+    "labels": ["Meetings"],
+    "orientation": "landscape",
+    "constants": [
+        {"gridSize": 44.375}
+    ],
+    "items": [
+        {
+            "type": "group",
+            "boundingBox": {
+                "x": 0,
+                "y": 0,
+                "width": "gridSize",
+                "height": "gridSize"
+            },
+            "repeat": {
+                "rows": "infinite",
+                "columns": "infinite"
+            },
+            "children": [
+                {
+                    "type": "path",
+                    "strokeWidth": 1,
+                    "data": [
+                        "M", 0, 0, "L", "parentWidth", 0
+                    ]
+                },
+                {
+                    "type": "path",
+                    "strokeWidth": 1,
+                    "data": [
+                        "M", 0, 0, "L", 0, "parentHeight"
+                    ]
+                }
+            ]
+        }
+    ]
+}
+

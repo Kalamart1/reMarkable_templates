@@ -1,0 +1,107 @@
+{
+    "name": "Séyès",
+    "author": "Kalamart",
+    "iconData": "PHN2ZyB3aWR0aD0iMTUwIiBoZWlnaHQ9IjIwMCIgdmlld0JveD0iMCAwIDE1MCAyMDAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxnIGNsaXAtcGF0aD0idXJsKCNjbGlwMF8xNDIyXzQxKSI+CjxyZWN0IHk9IjE4IiB3aWR0aD0iMTUwIiBoZWlnaHQ9IjIiIGZpbGw9ImJsYWNrIi8+CjxyZWN0IHk9IjM0IiB3aWR0aD0iMTUwIiBoZWlnaHQ9IjIiIGZpbGw9ImJsYWNrIi8+CjxyZWN0IHk9IjUwIiB3aWR0aD0iMTUwIiBoZWlnaHQ9IjIiIGZpbGw9ImJsYWNrIi8+CjxyZWN0IHk9Ijg0IiB3aWR0aD0iMTUwIiBoZWlnaHQ9IjIiIGZpbGw9ImJsYWNrIi8+CjxyZWN0IHk9IjEwMCIgd2lkdGg9IjE1MCIgaGVpZ2h0PSIyIiBmaWxsPSJibGFjayIvPgo8cmVjdCB5PSIxMTYiIHdpZHRoPSIxNTAiIGhlaWdodD0iMiIgZmlsbD0iYmxhY2siLz4KPHJlY3QgeT0iMTUwIiB3aWR0aD0iMTUwIiBoZWlnaHQ9IjIiIGZpbGw9ImJsYWNrIi8+CjxyZWN0IHk9IjE2NSIgd2lkdGg9IjE1MCIgaGVpZ2h0PSIyIiBmaWxsPSJibGFjayIvPgo8cmVjdCB5PSIxODEiIHdpZHRoPSIxNTAiIGhlaWdodD0iMiIgZmlsbD0iYmxhY2siLz4KPHBhdGggZD0iTTE0NiA0VjE5Nkg0VjRIMTQ2Wk0xNTAgMEgwVjIwMEgxNTBWMFoiIGZpbGw9ImJsYWNrIi8+CjxyZWN0IHg9IjczIiB3aWR0aD0iNCIgaGVpZ2h0PSIyMDAiIGZpbGw9ImJsYWNrIi8+CjxyZWN0IHk9IjY2IiB3aWR0aD0iMTUwIiBoZWlnaHQ9IjQiIGZpbGw9ImJsYWNrIi8+CjxyZWN0IHk9IjEzMSIgd2lkdGg9IjE1MCIgaGVpZ2h0PSI0IiBmaWxsPSJibGFjayIvPgo8L2c+CjxkZWZzPgo8Y2xpcFBhdGggaWQ9ImNsaXAwXzE0MjJfNDEiPgo8cmVjdCB3aWR0aD0iMTUwIiBoZWlnaHQ9IjIwMCIgZmlsbD0id2hpdGUiLz4KPC9jbGlwUGF0aD4KPC9kZWZzPgo8L3N2Zz4K",
+    "templateVersion": "1.0.0",
+    "formatVersion": 1,
+    "categories": ["Productivity", "Note-taking"],
+    "labels": ["Meetings"],
+    "orientation": "portrait",
+    "items": [
+        {
+            "type": "group",
+            "boundingBox": {
+                "x": 0,
+                "y": 0,
+                "width": 71,
+                "height": 71
+            },
+            "repeat": {
+                "rows": "infinite",
+                "columns": "infinite"
+            },
+            "children": [
+                {
+                    "type": "path",
+                    "strokeWidth": 1,
+                    "strokeColor": "#526bcd",
+                    "data": [
+                        "M", 0, 0,
+                        "L", "parentWidth", 0
+                    ]
+                },
+                {
+                    "type": "group",
+                    "boundingBox": {
+                        "x": 0,
+                        "y": 0,
+                        "width": "parentWidth",
+                        "height": 17.75
+                    },
+                    "repeat": {
+                        "rows": "down"
+                    },
+                    "children": [
+                        {
+                            "type": "path",
+                            "strokeWidth": 1,
+                            "strokeColor": "#91bbe5",
+                            "data": [
+                                "M", 0, 0,
+                                "L", "parentWidth", 0
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "group",
+            "boundingBox": {
+                "x": 284,
+                "y": 0,
+                "width": 71,
+                "height": 71
+            },
+            "repeat": {
+                "rows": "down",
+                "columns": "right"
+            },
+            "children": [
+                {
+                    "type": "path",
+                    "strokeWidth": 1,
+                    "strokeColor": "#526bcd",
+                    "data": [
+                        "M", 0, 0,
+                        "L", 0, "parentHeight"
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "group",
+            "boundingBox": {
+                "x": 213,
+                "y": 0,
+                "width": 71,
+                "height": 71
+            },
+            "repeat": {
+                "rows": "down"
+            },
+            "children": [
+                {
+                    "type": "path",
+                    "strokeWidth": 2,
+                    "strokeColor": "#d74846",
+                    "data": [
+                        "M", 0, 0,
+                        "L", 0, "parentHeight"
+                    ]
+                }
+            ]
+        }
+    ]
+}
+
