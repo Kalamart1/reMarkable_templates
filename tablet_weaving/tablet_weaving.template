@@ -1,0 +1,80 @@
+{
+    "name": "Tablet weaving",
+    "author": "Kalamart",
+    "iconData": "PHN2ZyB3aWR0aD0iMTUwIiBoZWlnaHQ9IjIwMCIgdmlld0JveD0iMCAwIDE1MCAyMDAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxnIGNsaXAtcGF0aD0idXJsKCNjbGlwMF8xNDIyXzQxKSI+CjxwYXRoIGQ9Ik0xNDYgNFYxOTZINFY0SDE0NlpNMTUwIDBIMFYyMDBIMTUwVjBaIiBmaWxsPSJibGFjayIvPgo8cmVjdCB4PSIwIiB3aWR0aD0iMTguNzUiIGhlaWdodD0iMjAwIiBmaWxsPSJibGFjayIvPgo8cmVjdCB4PSIxMzEuMjUiIHdpZHRoPSIxOC43NSIgaGVpZ2h0PSIyMDAiIGZpbGw9ImJsYWNrIi8+CjxwYXRoIGZpbGw9ImJsYWNrIiBkPSIKICAgICAgICBNMTguNzUgMjUKICAgICAgICBMMzcuNSAwCiAgICAgICAgTDU2LjI1IDAKICAgICAgICBMMTguNzUgNTAKICAgICAgICBaIi8+CjxwYXRoIGZpbGw9ImJsYWNrIiBkPSIKICAgICAgICBNMTMxLjI1IDI1CiAgICAgICAgTDExMi41IDAKICAgICAgICBMOTMuNzUgMAogICAgICAgIEwxMzEuMjUgNTAKICAgICAgICBaIi8+CjxwYXRoIGZpbGw9ImJsYWNrIiBkPSIKICAgICAgICBNMTguNzUgNzUKICAgICAgICBMNzUgMAogICAgICAgIEwxMzEuMjUgNzUKICAgICAgICBMMTMxLjI1IDEwMAogICAgICAgIEw3NSAyNQogICAgICAgIEwxOC43NSAxMDAKICAgICAgICBaIi8+CjxwYXRoIGZpbGw9ImJsYWNrIiBkPSIKICAgICAgICBNMzcuNSAxMDAKICAgICAgICBMNzUgNTAKICAgICAgICBMMTEyLjUgMTAwCiAgICAgICAgTDkzLjc1IDEwMAogICAgICAgIEw3NSA3NQogICAgICAgIEw1Ni4yNSAxMDAKICAgICAgICBaIi8+CjxwYXRoIGZpbGw9ImJsYWNrIiBkPSIKICAgICAgICBNMzcuNSAxMDAKICAgICAgICBMNTYuMjUgMTAwCiAgICAgICAgTDU2LjI1IDEyNQogICAgICAgIEw3NSAxNTAKICAgICAgICBMOTMuNzUgMTI1CiAgICAgICAgTDkzLjc1IDEwMAogICAgICAgIEwxMTIuNSAxMDAKICAgICAgICBMMTEyLjUgMTI1CiAgICAgICAgTDc1IDE3NQogICAgICAgIEwzNy41IDEyNQogICAgICAgIFoiLz4KPHBhdGggZmlsbD0iYmxhY2siIGQ9IgogICAgICAgIE0xOC43NSAxNTAKICAgICAgICBMNTYuMjUgMjAwCiAgICAgICAgTDc1IDIwMAogICAgICAgIEwxOC43NSAxMjUKICAgICAgICBaIi8+CjxwYXRoIGZpbGw9ImJsYWNrIiBkPSIKICAgICAgICBNMTMxLjI1IDE1MAogICAgICAgIEw5My43NSAyMDAKICAgICAgICBMNzUgMjAwCiAgICAgICAgTDEzMS4yNSAxMjUKICAgICAgICBaIi8+CjxwYXRoIGZpbGw9ImJsYWNrIiBkPSIKICAgICAgICBNMTguNzUgMTc1CiAgICAgICAgTDM3LjUgMjAwCiAgICAgICAgTDE4Ljc1IDIwMAogICAgICAgIFoiLz4KPHBhdGggZmlsbD0iYmxhY2siIGQ9IgogICAgICAgIE0xMzEuMjUgMTc1CiAgICAgICAgTDExMi41IDIwMAogICAgICAgIEwxMzEuMjUgMjAwCiAgICAgICAgWiIvPgo8L2c+CjxkZWZzPgo8Y2xpcFBhdGggaWQ9ImNsaXAwXzE0MjJfNDEiPgo8cmVjdCB3aWR0aD0iMTUwIiBoZWlnaHQ9IjIwMCIgZmlsbD0id2hpdGUiLz4KPC9jbGlwUGF0aD4KPC9kZWZzPgo8L3N2Zz4K",
+    "templateVersion": "1.0.0",
+    "formatVersion": 1,
+    "categories": ["Community"],
+    "labels": ["Meetings"],
+    "orientation": "portrait",
+    "constants": [
+        {"gridSize": 35.5},
+        {"previewWidth": "gridSize*2/3"},
+        {"separatorWidth": "2*gridSize"},
+        {"separator": "(templateWidth-separatorWidth) * 3/5 + separatorWidth/2"}
+    ],
+    "items": [
+        {
+            "type": "group",
+            "boundingBox": {
+                "x": "separator - separatorWidth/2 - gridSize",
+                "y": "gridSize",
+                "width": "gridSize",
+                "height": "gridSize"
+            },
+            "repeat": {
+                "rows": "infinite",
+                "columns": "left"
+            },
+            "children": [
+                {
+                    "type": "path",
+                    "data": [
+                        "M", 0, "parentHeight", "L", "parentWidth", "parentHeight"
+                    ]
+                },
+                {
+                    "type": "path",
+                    "data": [
+                        "M", "parentWidth", 0, "L", "parentWidth", "parentHeight"
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "group",
+            "boundingBox": {
+                "x": "separator + separatorWidth/2",
+                "y": "gridSize/2",
+                "width": "previewWidth",
+                "height": "gridSize"
+            },
+            "repeat": {
+                "rows": "infinite",
+                "columns": "right"
+            },
+            "children": [
+                {
+                    "type": "path",
+                    "data": [
+                        "M", 0, 0, "L", "parentWidth", "gridSize"
+                    ]
+                },
+                {
+                    "type": "path",
+                    "data": [
+                        "M", 0, "gridSize", "L", "parentWidth", 0
+                    ]
+                },
+                {
+                    "type": "path",
+                    "data": [
+                        "M", 0, 0, "L", 0, "parentHeight"
+                    ]
+                }
+            ]
+        }
+    ]
+}
+
+

@@ -1,0 +1,88 @@
+<svg height="150" width="200" viewBox="0 0 200 150" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_1422_41)">
+<path d="M196 4V146H4V4H196ZM200 0H0V150H200V0Z" fill="black"/>
+<rect x="0" width="16.66" height="150" fill="black"/>
+<rect x="183" width="16.66" height="150" fill="black"/>
+<path fill="black" d="
+        M16.67 0
+        L33.33 0
+        L50 25
+        L50 50
+        L33.33 75
+        L33.33 100
+        L50 125
+        L50 150
+        L33.33 150
+        L33.33 125
+        L16.67 100
+        L16.67 75
+        L33.33 50
+        L33.33 25
+        Z"/>
+<path fill="black" d="
+        M100 0
+        L116.67 0
+        L100 25
+        L100 50
+        L116.67 75
+        L116.67 100
+        L100 125
+        L100 150
+        L83.33 150
+        L83.33 125
+        L100 100
+        L100 75
+        L83.33 50
+        L83.33 25
+        Z"/>
+<path fill="black" d="
+        M150 0
+        L166.67 0
+        L183.33 25
+        L183.33 50
+        L166.67 75
+        L166.67 100
+        L183.33 125
+        L183.33 150
+        L166.67 150
+        L166.67 125
+        L150 100
+        L150 75
+        L166.67 50
+        L166.67 25
+        Z"/>
+<path fill="black" d="
+        M66.67 50
+        L83.33 75
+        L83.33 100
+        L66.67 125
+        L50 100
+        L50 75
+        Z"/>
+<path fill="black" d="
+        M133.33 0
+        L150 25
+        L150 50
+        L133.33 75
+        L116.67 50
+        L116.67 25
+        Z"/>
+<path fill="black" d="
+        M50 0
+        L83.33 0
+        L66.67 25
+        Z"/>
+<path fill="black" d="
+        M133.33 100
+        L150 125
+        L150 150
+        L116.67 150
+        L116.67 125
+        Z"/>
+</g>
+<defs>
+<clipPath id="clip0_1422_41">
+<rect height="150" width="200" fill="white"/>
+</clipPath>
+</defs>
+</svg>

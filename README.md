@@ -55,6 +55,18 @@ This is a personal template I use for sketching my scrollable comics. It simply 
 
 <img src="_img/webtoon.png" alt="Webtoon template preview" width="600"/>
 </details>
+
+**<details><summary>Tablet weaving</summary>**
+Another highly specialized template, this one is for helping me draft tablet weaving designs. The left section is for showing card turns, and the right to preview the expected result. The amount of columns on the left side and the right side is the same, and the template scrolls infinitely. The grid on the right has the right proportions to imitate a tightly woven band.
+
+This template also has a lansdscape version, which has more columns, but less visible rows, so it requires more scrolling if there are a lot of turns to write down.
+
+<img src="_img/tablet_weaving.png" alt="Tablet weaving template preview" width="600"/>
+
+Example of how I use it:
+
+<img src="_img/tablet_weaving_example.png" alt="Tablet weaving template example" width="600"/>
+</details>
   
 ## Automatic installation
 

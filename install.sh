@@ -13,6 +13,7 @@ TEMPLATE_NAMES=(
     "Millimeter paper"
     "Séyès"
     "Webtoon"
+    "Tablet weaving"
 )
 
 TEMPLATE_DIRS=(
@@ -22,6 +23,7 @@ TEMPLATE_DIRS=(
     "millimeter_paper"
     "seyes"
     "webtoon"
+    "tablet_weaving"
 )
 
 cleanup() {
