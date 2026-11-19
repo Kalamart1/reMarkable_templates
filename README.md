@@ -51,7 +51,7 @@ This is a very popular French ruling system used for handwriting, with lines spa
 </details>
 
 **<details><summary>Webtoon</summary>**
-This is a personal template I use for sketching my scrollable comics. It simply splits the page into 2 columns, which gives me a more manageable constant page width. This template is only available in portrait orientation.
+This is a personal template I use for sketching my scrollable comics. It simply splits the page into 2 columns, which gives me a more manageable constant page width. There is also a very thin outline around the page, that is only visible when zooming out or scrolling. This template is only available in portrait orientation.
 
 <img src="_img/webtoon.png" alt="Webtoon template preview" width="600"/>
 </details>
@@ -75,7 +75,7 @@ This is the recommended way of installing these templates.
 You will need access to a command line session on the tablet. If you don't want to deal with opening an SSH connection manually, you can use [reManager](https://remanager.io/) as a user-friendly graphical interface for connecting to your tablet.
 
 > [!IMPORTANT]
-> If you want to connect over wifi, you will first need to use a cable, to run the command that enables SSH over wlan. Newer models might also require you to switch to developer mode in order to use SSH your tablet. See full instructions [here](https://remarkable.guide/guide/access/ssh.html).
+> If you want to connect over wifi, you will first need to use a cable, so you can run the command that enables SSH over wlan. Newer models might also require you to switch to developer mode in order to use SSH on your tablet. See full instructions [here](https://remarkable.guide/guide/access/ssh.html).
 
 Run the following command in the console:
 

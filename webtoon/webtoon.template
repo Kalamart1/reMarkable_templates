@@ -16,9 +16,6 @@
                 "width": "templateWidth",
                 "height": "templateHeight"
             },
-            "repeat": {
-                "rows": "infinite"
-            },
             "children": [
                 {
                     "type": "path",
@@ -26,6 +23,16 @@
                     "data": [
                         "M", "parentWidth/2", 0,
                         "L", "parentWidth/2", "parentHeight"
+                    ]
+                },
+                {
+                    "type": "path",
+                    "data": [
+                        "M", 0, 0,
+                        "L", "parentWidth", 0,
+                        "L", "parentWidth", "parentHeight",
+                        "L", 0, "parentHeight",
+                        "Z"
                     ]
                 }
             ]
